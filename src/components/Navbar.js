@@ -15,7 +15,7 @@ const Navbar = () => {
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         {/* <span className="navbar-toggler-icon"></span> */}
                         <div className="menu-icon" onClick={handleClick}>
-                            {click ? <FaTimes style={{ color: '#fff', cursor: 'pointer' }} /> : <FaBars style={{ color: '#fff', cursor: 'pointer' }} />}
+                            {click ? <FaTimes style={{ color: "#fff", cursor: "pointer" }} /> : <FaBars style={{ color: "#fff", cursor: "pointer" }} />}
                         </div>
                     </button>
 
